@@ -17,40 +17,7 @@
             android:layout_marginBottom="20dp"
             android:src="@drawable/svinya" />
 
-        <ImageView
-            android:id="@+id/image2"
-            android:layout_width="match_parent"
-            android:layout_height="234dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/sobaka" />
 
-        <ImageView
-            android:id="@+id/image3"
-            android:layout_width="match_parent"
-            android:layout_height="159dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/loshad" />
-
-        <ImageView
-            android:id="@+id/image4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/ovechka"/>
-
-        <ImageView
-            android:id="@+id/image5"
-            android:layout_width="match_parent"
-            android:layout_height="93dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/kurochka" />
-
-        <ImageView
-            android:id="@+id/image6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/korova"/>
 
     </LinearLayout>
 </ScrollView>
