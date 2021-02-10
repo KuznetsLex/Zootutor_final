@@ -39,14 +39,27 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb5e5915-0b77-473e-a0a8-1149094edfe3" name="Default" comment="Database created">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/in/blogspot/kmvignesh/calculator/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/in/blogspot/kmvignesh/calculator/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +69,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -84,7 +97,9 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ProjectId" id="1lNhVEmbC6zU0lL2SExJNWVkeOi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -100,6 +115,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Zootutor\app\src\main\res\raw" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\VickY\Documents\Kotlin\Calculator\app\src\main\res\drawable" />
     </key>
@@ -287,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612548360180</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Database created">
+      <created>1612709602143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612709602143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -311,7 +336,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -342,6 +367,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="153" width="1092" height="694" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607444042559" />
+    <state x="1319" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612721703911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1319" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612721703911" />
+    <state x="1132" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612721412555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1132" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612721412555" />
     <state x="756" y="455" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607445985656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -358,26 +391,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="60" y="278" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609320810843" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1612709716330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612709716330" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611926577621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611926577621" />
-    <state width="1726" height="290" key="GridCell.Tab.0.bottom" timestamp="1612472009104">
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1612972106959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1726" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612472009104" />
-    <state width="1726" height="290" key="GridCell.Tab.0.center" timestamp="1612472009103">
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1612972106959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1726" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612472009103" />
-    <state width="1726" height="290" key="GridCell.Tab.0.left" timestamp="1612472009103">
+    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1612972106959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1726" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612472009103" />
-    <state width="1726" height="290" key="GridCell.Tab.0.right" timestamp="1612472009103">
+    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1612972106959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1726" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612472009103" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
     <state x="590" y="373" key="Performance.Activity.Monitor" timestamp="1611927810809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -386,9 +423,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="198" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612709399723" />
-    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1612469225934">
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612709579915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612469225934" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612709579915" />
+    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1612718610446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612718610446" />
   </component>
 </project>
