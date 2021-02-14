@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "97409558401",
+    "project_id": "zoobase-ddfc3",
+    "storage_bucket": "zoobase-ddfc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97409558401:android:f70185d3e1bd802fb1ea80",
+        "android_client_info": {
+          "package_name": "com.Kuznets_lex.Zootutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97409558401-argbsqlnb3f9mprutj36o95fap0fb5fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfealWcDO8p1VshIt7qPiLJrooZyDigx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97409558401-argbsqlnb3f9mprutj36o95fap0fb5fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

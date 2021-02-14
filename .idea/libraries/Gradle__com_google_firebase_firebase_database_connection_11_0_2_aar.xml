@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-database-connection:11.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.2.aar/308a3b76be90316b2fe421e720c9d747/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.2.aar/308a3b76be90316b2fe421e720c9d747/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.2.aar/308a3b76be90316b2fe421e720c9d747/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.2.aar/d11dec9a876462e142aa2c20accf61ff/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.2.aar/d11dec9a876462e142aa2c20accf61ff/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.2.aar/d11dec9a876462e142aa2c20accf61ff/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-storage:11.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.2.aar/ca3d64d0130210480d2088d8a800a0ec/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.2.aar/ca3d64d0130210480d2088d8a800a0ec/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.2.aar/ca3d64d0130210480d2088d8a800a0ec/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.2.aar/0d3d319f4407ded98e2136a7cfaa78d9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.2.aar/0d3d319f4407ded98e2136a7cfaa78d9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.2.aar/0d3d319f4407ded98e2136a7cfaa78d9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
