@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2cc54"
+
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="1105dp">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="540dp"
+                android:layout_height="124dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="124dp"
+                        android:layout_height="100dp"
+
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/arrow"
+                        android:onClick="rideOnMe"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.514" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+
+                        android:background="@drawable/exam"
+                        android:onClick="rideOnMe"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/button7"
+                        app:layout_constraintStart_toEndOf="@+id/button11"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/vopros"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.514" />
+                </android.support.constraint.ConstraintLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/food"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/cow_and_sheep_food"
+
+
+                android:visibility="gone"
+
+                app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintVertical_bias="0.516" />
+
+            <ImageView
+                android:id="@+id/foot"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+
+                android:src="@drawable/cow_foot1"
+                android:visibility="gone"
+
+                app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintVertical_bias="0.516" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:visibility="visible"
+
+
+                app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+            <ImageView
+                android:id="@+id/soundpic"
+
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+
+                android:src="@drawable/cow__soundpic"
+                android:visibility="gone"
+
+                app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintVertical_bias="0.516" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="156dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="-3dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/face"
+                    android:button="@drawable/space"
+                    tools:layout_editor_absoluteX="7dp"
+                    tools:layout_editor_absoluteY="928dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/foot"
+                    android:button="@drawable/space"
+                    tools:layout_editor_absoluteX="7dp"
+                    tools:layout_editor_absoluteY="928dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/food"
+                    android:button="@drawable/space"
+                    tools:layout_editor_absoluteX="367dp"
+                    tools:layout_editor_absoluteY="928dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/sound"
+                    android:button="@drawable/space" />
+
+            </RadioGroup>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
