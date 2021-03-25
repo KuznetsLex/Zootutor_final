@@ -27,38 +27,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
-                    android:id="@+id/button11"
+                <ImageView
+                    android:id="@+id/arrow"
                     android:layout_width="124dp"
                     android:layout_height="100dp"
 
                     android:layout_marginStart="10dp"
-                    android:background="@drawable/arrow"
                     android:onClick="toMainMenu"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.514" />
 
-                <Button
-                    android:id="@+id/button8"
+                <ImageView
+                    android:id="@+id/exam"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
 
-                    android:background="@drawable/exam"
                     android:onClick="rideOnMe"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/button7"
-                    app:layout_constraintStart_toEndOf="@+id/button11"
+                    app:layout_constraintEnd_toStartOf="@+id/vopros"
+                    app:layout_constraintStart_toEndOf="@+id/arrow"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <Button
-                    android:id="@+id/button7"
+                <ImageView
+                    android:id="@+id/vopros"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
 
                     android:layout_marginEnd="10dp"
-                    android:background="@drawable/vopros"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -67,11 +64,10 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/button5"
+        <ImageView
+            android:id="@+id/svinya"
             android:layout_width="167dp"
             android:layout_height="214dp"
-            android:background="@drawable/svinya"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.903"
@@ -79,11 +75,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.54" />
 
-        <Button
-            android:id="@+id/button2"
+        <ImageView
+            android:id="@+id/ovechka"
             android:layout_width="152dp"
             android:layout_height="193dp"
-            android:background="@drawable/ovechka"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.335"
@@ -91,11 +86,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.395" />
 
-        <Button
-            android:id="@+id/button1"
+        <ImageView
+            android:id="@+id/loshad"
             android:layout_width="247dp"
             android:layout_height="207dp"
-            android:background="@drawable/loshad"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -103,11 +97,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.102" />
 
-        <Button
-            android:id="@+id/button3"
+        <ImageView
+            android:id="@+id/sobaka"
             android:layout_width="170dp"
             android:layout_height="220dp"
-            android:background="@drawable/sobaka"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.339"
@@ -115,24 +108,22 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.802" />
 
-        <Button
-            android:id="@+id/button6"
+        <ImageView
+            android:id="@+id/kurochka"
             android:layout_width="117dp"
             android:layout_height="171dp"
             android:layout_weight="1"
-            android:background="@drawable/kurochka"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.796"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4"
+            app:layout_constraintTop_toBottomOf="@+id/korova"
             app:layout_constraintVertical_bias="0.879" />
 
-        <Button
-            android:id="@+id/button4"
+        <ImageView
+            android:id="@+id/korova"
             android:layout_width="196dp"
             android:layout_height="243dp"
-            android:background="@drawable/korova"
             android:onClick="toastMe"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
