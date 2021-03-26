@@ -32,7 +32,7 @@ class SecondActivity : AppCompatActivity() {
 
 
 
-        button7.setOnClickListener {
+        vopros.setOnClickListener {
             var resID = getResources().getIdentifier("main_2", "raw", getPackageName())
             val mediaPlayer = MediaPlayer.create(this, resID)
             mediaPlayer.start()
@@ -60,28 +60,28 @@ class SecondActivity : AppCompatActivity() {
 
 
             radioGroup.setOnCheckedChangeListener { _, checkedId ->
-                if(checkedId ==R.id.radioButton1) {
+                if(checkedId ==R.id.radioFoot) {
 
                     foot.visibility = (View.VISIBLE)
                     food.visibility = (View.GONE)
                     soundpic.visibility = (View.GONE)
                     viewpager.visibility = (View.GONE)
                 }
-                else if(checkedId ==R.id.radioButton2) {
+                else if(checkedId ==R.id.radioFood) {
 
                     food.visibility = (View.VISIBLE)
                     foot.visibility = (View.GONE)
                     soundpic.visibility = (View.GONE)
                     viewpager.visibility = (View.GONE)
                 }
-                else if(checkedId ==R.id.radioButton3) {
+                else if(checkedId ==R.id.radioSound) {
 
                     soundpic.visibility = (View.VISIBLE)
                     food.visibility = (View.GONE)
                     foot.visibility = (View.GONE)
                     viewpager.visibility = (View.GONE)
                 }
-                else if(checkedId ==R.id.radioButton4) {
+                else if(checkedId ==R.id.radioFace) {
 
                     soundpic.visibility = (View.GONE)
                     food.visibility = (View.GONE)
@@ -97,6 +97,10 @@ class SecondActivity : AppCompatActivity() {
         Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/food%2Fcow_and_sheep_food.png?alt=media&token=0b0652b4-0e6f-44f1-94eb-635dd3525321").into(food);
         Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/footprints%2Fcow_foot1.jpg?alt=media&token=d7ef1ba6-714e-4691-9889-505671bb4438").into(foot);
         Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/soundpick%2FCow__soundpic.png?alt=media&token=af102aeb-2fbe-40d2-82d7-1418bed2c886").into(soundpic);
+
+        Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/controls%2Fvopros.png?alt=media&token=87701bbc-0ed0-4948-8b23-0f4f8ca16139").into(vopros);
+        Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/controls%2Farrow.png?alt=media&token=9a717b8e-6fe6-4c31-93cc-34226ae9339c").into(arrow);
+        Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/controls%2Fexam.png?alt=media&token=dabedfa3-91fb-4326-bf84-886e212a611a").into(exam);
     }
 
     fun rideOnMe(view: View) {

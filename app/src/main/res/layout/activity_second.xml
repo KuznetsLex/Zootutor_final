@@ -36,8 +36,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <Button
-                        android:id="@+id/button11"
+                    <ImageView
+                        android:id="@+id/arrow"
                         android:layout_width="124dp"
                         android:layout_height="100dp"
 
@@ -49,20 +49,20 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.514" />
 
-                    <Button
-                        android:id="@+id/button8"
+                    <ImageView
+                        android:id="@+id/exam"
                         android:layout_width="130dp"
                         android:layout_height="130dp"
 
                         android:background="@drawable/exam"
                         android:onClick="rideOnMe"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/button7"
-                        app:layout_constraintStart_toEndOf="@+id/button11"
+                        app:layout_constraintEnd_toStartOf="@+id/vopros"
+                        app:layout_constraintStart_toEndOf="@+id/arrow"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <Button
-                        android:id="@+id/button7"
+                    <ImageView
+                        android:id="@+id/vopros"
                         android:layout_width="130dp"
                         android:layout_height="130dp"
 
@@ -82,7 +82,7 @@
                 android:layout_height="350dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:src="@drawable/cow_and_sheep_food"
+
 
 
                 android:visibility="gone"
@@ -103,7 +103,7 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
 
-                android:src="@drawable/cow_foot1"
+
                 android:visibility="gone"
 
                 app:layout_constraintBottom_toTopOf="@+id/radioGroup"
@@ -139,7 +139,7 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
 
-                android:src="@drawable/cow__soundpic"
+
                 android:visibility="gone"
 
                 app:layout_constraintBottom_toTopOf="@+id/radioGroup"
@@ -160,7 +160,7 @@
                 tools:layout_editor_absoluteX="-3dp">
 
                 <RadioButton
-                    android:id="@+id/radioButton4"
+                    android:id="@+id/radioFace"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
@@ -171,7 +171,7 @@
                     tools:layout_editor_absoluteY="928dp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton1"
+                    android:id="@+id/radioFoot"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
@@ -182,7 +182,7 @@
                     tools:layout_editor_absoluteY="928dp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioFood"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
@@ -193,7 +193,7 @@
                     tools:layout_editor_absoluteY="928dp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3"
+                    android:id="@+id/radioSound"
                     android:layout_width="115dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
