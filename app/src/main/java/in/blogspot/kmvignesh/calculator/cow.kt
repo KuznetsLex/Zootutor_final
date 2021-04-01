@@ -10,10 +10,10 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.bumptech.glide.Glide
 import com.cretlabs.viewpager.CustomPagerAdapter
-import kotlinx.android.synthetic.main.activity_second.*
+import kotlinx.android.synthetic.main.cow.*
 
 
-class SecondActivity : AppCompatActivity() {
+class cow : AppCompatActivity() {
 
     //companion object{
     //    const val TOTAL_COUNT = "total_count"
@@ -22,7 +22,7 @@ class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.cow)
 
         val viewPager = findViewById<View>(R.id.viewpager) as ViewPager
         viewPager.adapter = CustomPagerAdapter(this)
