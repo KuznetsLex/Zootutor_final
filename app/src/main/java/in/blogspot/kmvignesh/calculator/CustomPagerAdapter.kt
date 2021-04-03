@@ -1,27 +1,33 @@
-package com.cretlabs.viewpager
-/**
- * Created by Gokul on 2/11/2018.
- */
+package com.codinginflow.picassoimagesliderexample
+
 import android.content.Context
 import android.support.v4.view.PagerAdapter
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-class CustomPagerAdapter(private val mContext: Context) : PagerAdapter() {
-    override fun instantiateItem(collection: ViewGroup, position: Int): Any {
-        val modelObject = Model.values()[position]
-        val inflater = LayoutInflater.from(mContext)
-        val layout = inflater.inflate(modelObject.layoutResId, collection, false) as ViewGroup
-        collection.addView(layout)
-        return layout
-    }
-    override fun destroyItem(collection: ViewGroup, position: Int, view: Any) {
-        collection.removeView(view as View)
-    }
+import android.widget.ImageView
+import com.squareup.picasso.Picasso
+
+class ViewPagerAdapter internal constructor(private val context: Context, private val imageUrls: Array<String>) : PagerAdapter() {
     override fun getCount(): Int {
-        return Model.values().size
+        return imageUrls.size
     }
+
     override fun isViewFromObject(view: View, `object`: Any): Boolean {
         return view === `object`
+    }
+
+    override fun instantiateItem(container: ViewGroup, position: Int): Any {
+        val imageView = ImageView(context)
+        Picasso.get()
+                .load(imageUrls[position])
+                .fit()
+                .centerCrop()
+                .into(imageView)
+        container.addView(imageView)
+        return imageView
+    }
+
+    override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
+        container.removeView(`object` as View)
     }
 }
