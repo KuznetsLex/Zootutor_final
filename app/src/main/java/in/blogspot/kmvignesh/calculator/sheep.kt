@@ -31,7 +31,6 @@ class sheep : AppCompatActivity() {
         val adapter = ViewPagerAdapter(this, imageUrls)
         viewPager.adapter = adapter
 
-        //radioButton1 = findViewById(R.id.radioButton1) as RadioButton
 
 
 
