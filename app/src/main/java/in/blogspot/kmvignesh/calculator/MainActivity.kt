@@ -3,17 +3,30 @@ package `in`.blogspot.kmvignesh.calculator
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
+<<<<<<< HEAD
 import android.support.v7.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.tutorialwing.scrollview.*
+=======
+import android.os.Environment
+import android.support.v7.app.AppCompatActivity
+import android.view.View
+import com.tutorialwing.scrollview.SecondActivity
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+<<<<<<< HEAD
         vopros.setOnClickListener {
             var resID = getResources().getIdentifier("main", "raw", getPackageName())
             val mediaPlayer = MediaPlayer.create(this, resID)
@@ -87,8 +100,39 @@ class MainActivity : AppCompatActivity() {
         Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/controls%2Fvopros.png?alt=media&token=87701bbc-0ed0-4948-8b23-0f4f8ca16139").into(vopros);
         Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/controls%2Farrow.png?alt=media&token=9a717b8e-6fe6-4c31-93cc-34226ae9339c").into(arrow);
         Glide.with(getApplicationContext()).load("https://firebasestorage.googleapis.com/v0/b/zoobase-ddfc3.appspot.com/o/controls%2Fexam.png?alt=media&token=dabedfa3-91fb-4326-bf84-886e212a611a").into(exam);
+=======
+
+
+        val pigSound = MediaPlayer.create(this, R.raw.pig)
+
+
+        button5.setOnClickListener{
+            var path = Environment.getExternalStorageDirectory().toString()+"/pig.wav"
+            var mp=MediaPlayer()
+            mp.setDataSource(path)
+            mp.prepare()
+            mp.start()
+        }
     }
 
 
 
+
+
+    fun toastMe(view: View) {
+        val randomIntent = Intent(this, SecondActivity::class.java)
+        startActivity(randomIntent)
+    }
+
+
+
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
+    }
+
+
+
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3

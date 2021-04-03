@@ -2,8 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="in.blogspot.kmvignesh.calculator">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permisson.Internet"/>
 
+=======
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,11 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.AppCompat.Light">
+<<<<<<< HEAD
         <activity android:name=".MainMenu">
+=======
+        <activity android:name="com.tutorialwing.scrollview.SecondActivity"></activity>
+
+        <activity android:name=".MainActivity">
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+<<<<<<< HEAD
             </intent-filter></activity>
         <activity android:name="com.tutorialwing.scrollview.cow" />
         <activity android:name="com.tutorialwing.scrollview.horse" />
@@ -25,6 +35,9 @@
         <activity android:name="com.tutorialwing.scrollview.sheep" />
         <activity android:name=".MainActivity">
 
+=======
+            </intent-filter>
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
         </activity>
     </application>
 

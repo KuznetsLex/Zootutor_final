@@ -18,12 +18,17 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+<<<<<<< HEAD
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+=======
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -44,13 +49,34 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+<<<<<<< HEAD
         <item name="GROUP_NODE:steam" type="e8cecc67:BranchNodeDescriptor" />
+=======
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb5e5915-0b77-473e-a0a8-1149094edfe3" name="Default" comment="Database created">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/in/blogspot/kmvignesh/calculator/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/in/blogspot/kmvignesh/calculator/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +86,11 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -69,12 +99,16 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+<<<<<<< HEAD
         <projects_view>
           <tree_state>
             <expand />
             <select />
           </tree_state>
         </projects_view>
+=======
+        <projects_view />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
       </state>
     </system>
   </component>
@@ -83,7 +117,10 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
+<<<<<<< HEAD
         <option value="layoutResourceFile" />
+=======
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
       </list>
     </option>
   </component>
@@ -94,20 +131,30 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ProjectId" id="1lNhVEmbC6zU0lL2SExJNWVkeOi" />
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Xiaomi_Poco_x3_API_30" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-23T05:49:47.891Z" />
+=======
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="C:/Android/sdk" />
     <property name="device.picker.selection" value="Pixel_2_XL_API_26" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zootutor-eugen_1" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -127,6 +174,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Zootutor-eugen FILM\app\src\main\res\layout" />
       <recent name="D:\Programms\Zootutor-master\app\src\main\res\drawable" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zoo-копия" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Zootutor\app\src\main\res\raw" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
       <recent name="C:\Users\VickY\Documents\Kotlin\Calculator\app\src\main\res\drawable" />
     </key>
   </component>
@@ -215,7 +272,11 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+<<<<<<< HEAD
       <module name="Zootutor-eugen.app" />
+=======
+      <module name="Zootutor.app" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -313,7 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1612548360180</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="3" />
+=======
+    <task id="LOCAL-00003" summary="Database created">
+      <created>1612709602143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612709602143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -337,7 +409,11 @@
                   <entry key="branch">
                     <value>
                       <list>
+<<<<<<< HEAD
                         <option value="steam/master" />
+=======
+                        <option value="origin/master" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
                       </list>
                     </value>
                   </entry>
@@ -348,6 +424,7 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -363,6 +440,8 @@
         </entry>
       </map>
     </option>
+=======
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
@@ -371,6 +450,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Database created" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="-5" y="72" width="1185" height="740" key="#PSD" timestamp="1617456225342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,10 +524,73 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="402" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617219518151" />
+=======
+    <state x="747" y="319" key="#Gradle" timestamp="1607935085759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="319" key="#Gradle/0.0.1920.1040@0.0.1920.1040" timestamp="1607935085759" />
+    <state x="552" y="161" key="#Plugins" timestamp="1607621453026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1607621453026" />
+    <state x="670" y="153" width="1092" height="694" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607444042559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="153" width="1092" height="694" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607444042559" />
+    <state x="1319" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612721703911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1319" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612721703911" />
+    <state x="1132" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612721412555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1132" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612721412555" />
+    <state x="756" y="455" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607445985656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="455" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1607445985656" />
+    <state x="1179" y="113" width="772" height="831" key="AVDManager" timestamp="1612469888578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1179" y="113" width="772" height="831" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1612469888578" />
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1612377969071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612377969071" />
+    <state x="60" y="278" key="AndroidCreateResourceFileDialog" timestamp="1609320810843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="60" y="278" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609320810843" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1612709716330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612709716330" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611926577621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611926577621" />
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1612972106959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1612972106959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1612972106959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1612972106959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612972106959" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
     <state x="590" y="373" key="Performance.Activity.Monitor" timestamp="1611927810809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="373" key="Performance.Activity.Monitor/0.0.1920.1040@0.0.1920.1040" timestamp="1611927810809" />
+<<<<<<< HEAD
     <state x="698" y="240" key="RollbackChangesDialog" timestamp="1617444338350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -472,5 +615,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="304" y="192" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614069782028" />
+=======
+    <state x="750" y="198" width="998" height="708" key="SettingsEditor" timestamp="1612709399723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="750" y="198" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612709399723" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612709579915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612709579915" />
+    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1612718610446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612718610446" />
+>>>>>>> 8f1fbb3cbac2bb6d7b39b3f9485b0ae9b42fdef3
   </component>
 </project>
