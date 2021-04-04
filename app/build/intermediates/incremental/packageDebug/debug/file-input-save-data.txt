@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Apr 03 20:06:25 GMT+06:00 2021
+0.baseType=DIRECTORY
+0.base=D\:\\Projects\\Zootutor-eugen\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
